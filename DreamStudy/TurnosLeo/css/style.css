@@ -1,0 +1,73 @@
+
+.contenedor-form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+form {
+    background-color: black;
+    width: 80%;
+    border-radius: 20px;
+    padding: 5%;
+}
+.form-label {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.titulo-form {
+    color: white;
+    width: 30%;
+}
+.subtitulo-form {
+    color: white;
+    width: 30%;
+    margin-top: 20px;
+}
+
+.input-datos, .input-datos-reserva {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.input-nombre, .input-apellido, .input-reserva {
+    width: 48%; /* Cada campo ocupará el 48% del ancho, con un pequeño margen entre ellos */
+}
+.input-contacto {
+    width: 100%;
+    margin-top: 20px;
+}
+.form-contacto {
+    width: 100%;
+}
+.contenedor-btn-reserva{
+    display: flex;
+    justify-content: center;
+
+}
+#btn-reservar{
+    margin-top: 20px;
+    width: 40%;
+    height: 50px;
+    color: white;
+}
+/* HEADER LOGO */
+.logo-inicio {
+    width: 100%;
+    display: flex;
+    justify-content: center; /* Centra el contenido horizontalmente */
+}
+.logo {
+    max-width: 100%;
+    height: auto;
+}
+
+/*reserva exitosa*/
+.form-exitoso{
+    background-color: black;
+}
+
+.text-center{
+    top: 100px;
+}
+
